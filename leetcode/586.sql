@@ -14,8 +14,6 @@
 
 -- The test cases are generated so that exactly one customer will have placed more orders than any other customer.
 
--- The result format is in the following example.
-
 SELECT TOP 1 customer_number
 FROM Orders
 GROUP BY customer_number
