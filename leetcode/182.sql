@@ -14,8 +14,6 @@
 
 -- Return the result table in any order.
 
--- The query result format is in the following example.
-
 SELECT DISTINCT p1.email
 FROM Person p1
 JOIN Person p2
